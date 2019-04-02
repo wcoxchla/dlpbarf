@@ -39,6 +39,7 @@ def dob():
     dob = fake.date_between(start_date='-15y', end_date='now')
     # datetime.datetime(2007, 2, 28, 11, 28, 16)
 
+
     # Or if you need a more specific date boundaries, provide the start
     # and end dates explicitly.
     #start_date = datetime.date(year=2015, month=1, day=1)
